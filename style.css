@@ -1,1 +1,79 @@
 
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+
+}
+
+#heading{
+    align-items: center;
+}
+
+#search-input{
+    align-self: center;
+}
+
+#attribution{
+    width: 0.7cm;
+}
+
+#backIcon{
+   width: 0.5cm;
+
+}
+#close-search-btn{
+    background-color: black;
+    border-radius: 0.25em;
+  
+
+}
+
+#searchBtn{
+    background-color: black;
+    border-radius: 0.25em;
+
+}
+
+#searchIcon{
+    width: 0.5cm;
+
+}
+
+.flexbox-container2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+   
+
+ 
+
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.movie-title{
+    color: aquamarine;
+
+}
+
+.movie-votes{
+    color: aquamarine;
+
+}
+
+
+ 
+
+ .hidden{
+    display: none;
+ }
+
