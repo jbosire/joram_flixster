@@ -44,7 +44,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-<img src='https://i.imgur.com/1mbaRCV.gif' title='Video Walkthrough' width='' alt='Video walkthrough'/>
+<img src='https://i.imgur.com/1mbaRCV.gif' title='Video Walkthrough' width='200' alt='Video walkthrough'/>
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
