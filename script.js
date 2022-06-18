@@ -5,6 +5,7 @@ const flixForm =  document.querySelector("form");
 const loadButton = document.querySelector("#load-more-movies-btn");
 const backButton = document.querySelector("#close-search-btn");
 const searchButton = document.querySelector("#searchBtn");
+const searchResults = document.querySelector("#pageItem");
 
 
 
@@ -77,10 +78,9 @@ function displayMovies(respData){
            <div>
            <p class="movie-title">${elem.original_title}</p>
            </div>
-           <div>
-           <p class="movie-votes>${elem.vote_average}</p>
+           <span class="movie-votes"> ⭐ ${elem.vote_average}</span>
            </div>
-           </div>
+           <br>
         
         `
 
@@ -120,5 +120,6 @@ window.onload = function(){
     url = generateHTML("", true);
     console.log(url);
     getMovies("",true);
+    searchResults.value = "Currently showing";
     loadButton.classList.remove("hidden");
 }

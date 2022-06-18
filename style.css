@@ -4,7 +4,11 @@ body{
 }
 h1{
     color: aqua;
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+  
+   
 }
 
 #heading{
@@ -13,6 +17,10 @@ h1{
 
 #search-input{
     align-self: center;
+    background-color: black;
+    width: 5cm;
+    height: 0.6cm;
+
 }
 
 #attribution{
@@ -31,7 +39,7 @@ h1{
 }
 
 #searchBtn{
-    background-color: black;
+    background-color:black;
     border-radius: 0.25em;
 
 }
@@ -47,22 +55,25 @@ h1{
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-   
 
- 
+}
 
+.movie-poster{
+    background-color: grey;
+    padding: 2px;
+    
 }
 
 .flexbox-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 
 
 .movie-title{
     color: aquamarine;
-
+    font-weight: bolder;
 }
 
 .movie-votes{
@@ -71,9 +82,20 @@ h1{
 }
 
 
- 
+
+#load-more-movies-btn{
+    background-color:black;
+    border-radius: 0.25em;
+    color: aqua;
+
+}
 
  .hidden{
     display: none;
+    
+ }
+
+ #pageItem{
+    background-color: aliceblue;
  }
 
