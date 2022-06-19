@@ -42,21 +42,29 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
+`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
+<iframe 
+        src='https://www.loom.com/embed/cfa1bdf9253f467bae35f7dbcb1c1076' frameborder="0"
+        webkitallowfullscreen mozallowfullscreen allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+       
 <img src='https://i.imgur.com/NaVtI5K.gif' title='Video Walkthrough' width='' alt='Video walkthrough'/>
+
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete? 
 
-The topics were really helpful in helping me complete. Especially labs 3 which essentially shaped my project.
+**The topics were really helpful in helping me complete. Especially labs 3 which essentially shaped my project.**
 
-* If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc. 
+* If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-If I had more time I probaby would spend it Adding new features like users choosing their favourite movies and saving them for later so they can go watch them
+**If I had more time I probaby would spend it Adding new features like users choosing their favourite movies and saving them for later so they can go watch them**
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Most things went well, the lab three template helped a lot. I mostly had problems with designing the page and css stuff.
+**Most things went well, the lab three template helped a lot. I mostly had problems with designing the page and css stuff.**
 
 ### Open-source libraries used
 
@@ -65,4 +73,4 @@ Most things went well, the lab three template helped a lot. I mostly had problem
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
-Shoutout to both TAs for all the help even after hours
+**Shoutout to both TAs for all the help even after hours**
