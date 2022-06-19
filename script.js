@@ -63,6 +63,7 @@ flixForm.addEventListener("submit", (evt) =>{
     getMovies(movie,false);
     searchField.value = "";
     loadButton.classList.remove("hidden");
+    searchResults.textContent = "Search results for " + " '" + movie + "' ";
 
 
     
@@ -73,7 +74,7 @@ function displayMovies(respData){
     respData.results.forEach(elem => {
         mainFlix.innerHTML += `<div class="movie-card">
            <div>
-           <img src="https://image.tmdb.org/t/p/original/${elem.poster_path}" class="movie-poster" width="250" height="250"> 
+           <img alt="${elem.original_title} poster" src="https://image.tmdb.org/t/p/original/${elem.poster_path}" class="movie-poster" width="250" height="250"> 
            </div>
            <div>
            <p class="movie-title">${elem.original_title}</p>
@@ -120,6 +121,6 @@ window.onload = function(){
     url = generateHTML("", true);
     console.log(url);
     getMovies("",true);
-    searchResults.value = "Currently showing";
+    searchResults.textContent = "Currently showing";
     loadButton.classList.remove("hidden");
 }
